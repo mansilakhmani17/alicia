@@ -1,0 +1,704 @@
+.one{
+    margin-left: 90%;
+    background-color: lightgreen;
+    margin-right: 18px;
+}
+@media only screen and (max-width:600px){
+}
+
+.logo{
+    margin-left: -30px;
+}
+.green{
+    background-color: lightgreen;
+    border-radius: 10px;
+    width: 100%;
+}
+.alicia{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: myFont;
+    height: 25vw;
+    margin-left: 18rem;
+    margin-top: -15rem;
+    width: 50vw;
+    font-size: 300px;
+    /* opacity: 1; */
+    z-index: 0;
+
+}
+.alicia{
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+@font-face {
+    font-family: myFont;
+    src: url(./assets/MontereyFLF.ttf);
+}
+
+.party{
+  display: grid;
+  justify-content: center;
+}
+.paragraph{
+    font-family : font;
+     margin-left: 400px; 
+     font-size: 30px;
+     margin-right: 330px;
+}
+@font-face {
+    font-family: font;
+    src: url(./assets/Syne.zip);
+}
+.new{
+    display: flex;
+    margin-top: 5 rem;
+    flex-wrap: wrap;
+
+}
+.program{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 100px;
+    margin-left: 80px;
+}
+.zip{
+    margin-right: 100px;
+}
+.zam{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: url(./assets/eye5.png), pointer;
+}
+.zap{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.zep{
+    margin-left: 60px;
+}
+.ztp{
+    display: flex;
+    justify-content: space-between;
+    cursor: url(./assets/eye5.png), pointer;
+}
+.cap{
+   margin-top: -250px;
+   margin-left: 20px;
+   width: 360px;
+}
+.cup{
+   margin-top:-250px ;
+   margin-right: 40px;
+   width: 360px;
+}
+.zxp{
+    display: flex;
+    justify-content: space-around;
+    cursor: url(./assets/eye5.png), pointer;
+}
+.yay{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 30rem;
+    margin-left: 14rem;
+    margin-top: -5rem;
+    /* padding-top:100px; */
+    z-index: -2;
+    /* opacity: 0; */
+    position:relative;
+    animation: taadaa 2s infinite; 
+}
+.form{
+    margin-top: -100px;
+}
+.what{
+    margin-left: 80px;
+    margin-right: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+}
+.lol{
+    font-size: 15px;
+    font-family: Font;
+    margin-right: 750px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.blue{
+    background-color: lightskyblue;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 800px;
+    padding: 15px;
+    margin-top: -800px;
+}
+
+* {
+    box-sizing: border-box
+}
+.image-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+img {
+  width: 50%;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+.six{
+    height: 600px;
+    width: 500px;
+}
+.hun{
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+    animation: alternate-reverse;
+    height: 400px;
+    width: 300px;
+    animation: taadaa 2s infinite;
+    
+
+}
+@alternate-reverse{
+    time-0s
+}
+.cute{
+    height: 705px;
+    width: 50%;
+    margin-left: 70%;
+}
+.heding{
+    margin-left: 50%;
+    font-family: Font;
+    margin-top: 45px;
+}
+.para{
+    margin-left: 50%;
+    font-family: Font;
+}
+.mySlides 
+{
+  display:none;
+  height: 800px;
+
+}
+
+.top{
+    margin-left: 2px;
+    margin-top: -800px;
+
+}
+.kal{
+    background-color: rgb(245, 226, 114);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    width: 49%;
+    margin-top: -1100px;
+    height: 900px;
+
+}
+.laugh{
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.love{
+    margin-bottom: 10px;
+}
+.banner{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://alicia.qodeinteractive.com/wp-content/uploads/2023/06/landing-uncovering-img-1.jpg) ;
+    background-size: cover;
+    margin-top: -200px;
+}
+.banner h1{
+    font-size:100px;
+    font-family: serif;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .nope, .vape {
+    width: 50%;
+    height: 320px;
+  }
+ }
+.logo{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    line-height: 42px !important;
+    font-weight: 500px;
+    height: 20px;
+    width: 200px;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 60%;
+    border-radius: 15px 15px 15px 15px;
+}
+.purchase{
+    height: 80rem;
+    width: 40rem;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40rem;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .purchase , .yay , .alicia , .new , .arrow{
+    width: 50%;
+    height: 320px;
+  }
+ }
+
+ 
+.mon{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-left: 90%;
+}
+.jip{
+    border-radius: 70%;
+    width: 10%;
+    height: 70%;
+}
+.gigi{
+    position: fixed top;
+    display: flex;
+
+}
+.view{
+    height: 160px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    cursor: pointer;
+}
+.viewone{
+    height: 160px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.noob{
+    height: 615px;
+    width: 400px;
+    margin-top: -110px;
+    animation: taadaa 2s infinite;
+}
+
+@keyframes taadaa { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+    .arrow {
+        width: 40rem;
+        height: 20rem;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-left: 50rem;
+        margin-top: -10rem;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 50%;
+    }
+      
+ 
+    @-webkit-keyframes rotate {
+        0% { -webkit-transform: rotate(0deg) scale(1.0); }
+        100% { -webkit-transform: rotate(180deg) scale(1.1); }
+      }
+      @-moz-keyframes rotate {
+        0% { -moz-transform: rotate(0deg) scale(1.0); }
+        100% { -moz-transform: rotate(180deg) scale(1.1); }
+      }
+      @-o-keyframes rotate {
+        0% { -o-transform: rotate(0deg) scale(1.0); }
+        100% { -o-transform: rotate(180deg) scale(1.1); }
+      }
+      @-ms-keyframes rotate {
+        0% { -ms-transform: rotate(0deg) scale(1.0); }
+        100% { -ms-transform: rotate(180deg) scale(1.1); }
+      }
+      @keyframes rotate {
+        0% { transform: rotate(0deg) scale(1.0); }
+        100% { transform: rotate(180deg) scale(1.1); }
+      }
+      @-webkit-keyframes rori {
+        0% { -webkit-transform: rotate(180deg) scale(1.1); }
+        100% { -webkit-transform: rotate(0deg) scale(1.0); }
+      }
+      @-moz-keyframes rori {
+        0% { -moz-transform: rotate(180deg) scale(1.1); }
+        100% { -moz-transform: rotate(0deg) scale(1.0); }
+      }
+      @-o-keyframes rori {
+        0% { -o-transform: rotate(180deg) scale(1.1); }
+        100% { -o-transform: rotate(0deg) scale(1.0); }
+      }
+      @-ms-keyframes rori {
+        0% { -ms-transform: rotate(180deg) scale(1.1); }
+        100% { -ms-transform: rotate(0deg) scale(1.0); }
+      }
+      @keyframes rori {
+        0% { transform: rotate(180deg) scale(1.1); }
+        100% { transform: rotate(0deg) scale(1.0); }
+      }
+      div.tag img:hover {
+        -webkit-animation-name: rotate;
+        -moz-animation-name: rotate;
+        -ms-animation-name: rotate;
+        -o-animation-name: rotate;
+        animation-name: rotate;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -ms-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+      div.tag img {
+        -webkit-animation-name: rori;
+        -moz-animation-name: rori;
+        -ms-animation-name: rori;
+        -o-animation-name: rori;
+        animation-name: rori;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        vertical-align: middle;
+        max-width: 175px;
+        max-height: 175px;
+        text-align: center;
+        background-color: #D9F9FF;
+        margin: 25px;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+      div.tag img:hover {
+        -webkit-animation-name: rotate;
+        -moz-animation-name: rotate;
+        -ms-animation-name: rotate;
+        -o-animation-name: rotate;
+        animation-name: rotate;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -ms-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+
+
+
+      div.notag img {
+        -webkit-animation-name: rori;
+        -moz-animation-name: rori;
+        -ms-animation-name: rori;
+        -o-animation-name: rori;
+        animation-name: rori;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        vertical-align: middle;
+        max-width: 175px;
+        max-height: 175px;
+        text-align: center;
+        background-color: #D9F9FF;
+        margin-right: 25px;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+      div.notag img:hover {
+        -webkit-animation-name: rotate;
+        -moz-animation-name: rotate;
+        -ms-animation-name: rotate;
+        -o-animation-name: rotate;
+        animation-name: rotate;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -ms-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+      div.notag img {
+        -webkit-animation-name: rori;
+        -moz-animation-name: rori;
+        -ms-animation-name: rori;
+        -o-animation-name: rori;
+        animation-name: rori;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        vertical-align: middle;
+        max-width: 175px;
+        max-height: 175px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #D9F9FF;
+        margin: 25px;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+      div.notag img:hover {
+        -webkit-animation-name: rotate;
+        -moz-animation-name: rotate;
+        -ms-animation-name: rotate;
+        -o-animation-name: rotate;
+        animation-name: rotate;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -ms-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+      div.notag img {
+        -webkit-animation-name: rori;
+        -moz-animation-name: rori;
+        -ms-animation-name: rori;
+        -o-animation-name: rori;
+        animation-name: rori;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-duration: 500ms;
+        -o-animation-duration: 500ms;
+        animation-duration: 500ms;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+        -ms-animation-timing-function: ease;
+        -o-animation-timing-function: ease;
+        animation-timing-function: ease;
+        vertical-align: middle;
+        max-width: 175px;
+        max-height: 175px;
+        text-align: center;
+        background-color: #D9F9FF;
+        margin-left: 650px;
+        cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+      }
+      .circle {
+        overflow: hidden;
+        height: 250px;
+    }
+    .circle-text-1
+     {
+        position: relative;
+        transform: rotate(-50deg);
+        margin: 31px auto 0 300px;
+        z-index: 9999;
+        padding: 14px 100px;
+        float: left;
+    }
+
+    .curve{
+        background: transparent;
+    }
+    .path {
+        fill: transparent;
+      }
+      
+      .text {
+        fill: #FF9800;
+      }
+    .nope{
+    font-family: Italiana,serif;
+    font-size: var(--qode-marquee-text-font-size,200px);
+    line-height: 1;
+    font-weight: 400;
+    fill: var(--qode-marquee-text-color,#000);
+    text-transform: var(--qode-marquee-text-transform,uppercase);
+    overflow: visible;
+    letter-spacing: .01em;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    z-index: 0;
+    position: absolute;
+}
+.vape{
+    height: 125px;
+    width: 180px;
+    display: flex;
+    margin-left: -100px;
+    z-index: 1;
+    position: absolute;
+    opacity: 10;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+.shift{
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 
+.trying{
+  display: flex;
+  justify-content: center;
+} */
+
